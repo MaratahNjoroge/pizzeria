@@ -4,27 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzeria</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- header -->
-    <div class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">        
-            <a class="navbar-brand" href="#">Pizzeria</a>             
-               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                     <li class="nav-item active">
-                        <a class="nav-link" href="#">About us</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our specialities</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Contact us</a>
-                    </li>
-                 </ul>          
-              </div>        
-        </nav>
-    </div>
+    <nav
+      class="navbar navbar-expand-lg bg-dark text-uppercase fixed-top" id="mainNav">    
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="">Bon Appetit</a>
+         <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+          data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">     
+          Menu <i class="fas fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3" href="#">About us</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3" href="#">Our Cuisine</a>
+              
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+   
+    <header class="page-header header container-fluid">
+      <div class="overlay"> 
+          <div class="first">
+              <h1><strong>Bon appetit!</strong></h1>
+                  <p>JAMBO? Welcome to the best pizzeria inn in town..</p>
     
+          </div>
+      </div>
+  </header>
 </body>
 </html>
