@@ -1,12 +1,24 @@
-html {
-  height: 100%;
+html,body {
+  scroll-behavior: smooth;
+
 }
 
-body {
-  background-image: url(../images/pizzeria4.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
+ul,li,a {
+	color: white;
+}
+
+nav .navbar {
+	margin: 0;
+	width: 95%;
+}
+.landing {
+    background: url(../images/pizzeria4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+	color: white;
+	background-attachment: fixed;
 }
 
 .overlay {
@@ -15,7 +27,7 @@ body {
 	min-width: 100%;
 	left: 0;
 	top: 0;
-
+	background: rgba(0, 0, 0, 0.3);
 }
 
 .first {
@@ -24,14 +36,18 @@ body {
 	top: 45%;
 	transform: translate(-50%, -55%);
 	text-align: center;
+
 }
 
 .first h1 {
-	color: #ffffff;
+	color: crimson;
+	font-size: 4.5em;
 }
 
 .first p {
-	color: #fff;
+	color:yellow;
 	font-size: 1.3rem;
 	line-height: 1.5;
+	font-size: 2em;
 }
+
