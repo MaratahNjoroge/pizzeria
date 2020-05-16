@@ -57,3 +57,13 @@ span.emoji {
 	line-height: 2;
   }
 
+  .carousel-item {
+	height: 100vh;
+	min-height: 50vh;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+   	background-position: center center;
+}
