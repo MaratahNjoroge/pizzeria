@@ -1,5 +1,5 @@
 # IL FUOCO PIZZERIA
-#### A website that hosts my idealised pizzeria joint, Friday April 2020
+#### A website that hoists my idealised pizzeria joint, Friday May 2020
 #### By **Author Maratah Njoroge**
 ## Description
 - A website that hoists an ideaised view of how a pizzeria website would look like, including an installed version of Git.
