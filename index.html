@@ -66,42 +66,52 @@
 
 <!-- cuisine section -->
 <div class="container" id="cuisine">
+  <h2 class="headings text-center">Our Cuisine</h2>
+  <p>When it comes to pizza, our chefs have the best recipes in town..But as always customer is king and we have the toppers list.
+    Here are our five most sold pizza flavours.Bon apetit...
+  </p>
  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="./images/pizzeria5.jpg" alt="">
       <div class="carousel-caption d-none d-md-block">
-        <h3>The Works Pizza</h3>        
+        <h3>The Works Pizza</h3> 
+        <p></p>       
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="./images/pizzeria7.jpg" alt="">
       <div class="carousel-caption d-none d-md-block">
-        <h3>Margherita Pizza</h3>        
+        <h3>Margherita Pizza</h3> 
+        <p></p>       
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="./images/pizzeria11.jpg" alt="">
       <div class="carousel-caption d-none d-md-block">
-        <h3>Cheese Pizza</h3>        
+        <h3>Cheese Pizza</h3> 
+        <p></p>       
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="./images/pizzeria12.jpg" alt="">
       <div class="carousel-caption d-none d-md-block">
-        <h3>Meat Pizza</h3>        
+        <h3>Meat Pizza</h3> 
+        <p></p>       
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="./images/pizzeria13.jpg" alt="">
+      <img class="d-block w-100" src="./images/pizza.jpg" alt="">
       <div class="carousel-caption d-none d-md-block">
-        <h3>Veggie pizza</h3>        
+        <h3>Veggie pizza</h3> 
+        <p></p>       
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="./images/pizzeria14.jpg" alt="">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Finally</h5>      
+        <h3>LASTLY</h3> 
+        <p></p>     
       </div>
     </div>
   </div>
@@ -114,10 +124,103 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
 </div>
+
+
+<div class="container-fluid">
+  <div id="order">
+    <div class="info">
+      <h2> il fuoco pizzeria Order Form</h2><br>
+   
+      <p id="result">  </p>
+         
+      <form id="pizza-form">
+      <input type="text" name="fullName" placeholder="Full Name" required>&emsp;
+     <input type="text" name="phoneNumber" placeholder="Phone Number" required>&emsp;
+      <input type="text" name="address" placeholder="Address" required>
+    <br> <br>
+      
+      <h5>Choose a size:</h5>
+      <input type="radio" name="size" id="Personal" value="6"> KES600 Personal pizza &emsp;
+      <input type="radio" name="size" id="Medium" value="10"> KES1,000 Medium pizza &emsp;
+      <input type="radio" name="size" id="Large" value="14">  KES1,400 Large pizza &emsp;
+      <input type="radio" name="size" id="Extra-Large" value="16">  KES1,600 Extra Large pizza <br><br>
+    
+     <h5>Cheese Options:</h5>
+      <input type="radio" name="cheese" id="Regular" value="0"> Regular &emsp;
+      <input type="radio" name="cheese" id="No" value="0"> No cheese &emsp;
+      <input type="radio" name="cheese" id="Extra" value="3">  Extra Cheese (KES300) <br><br>   
+    
+    <h5>Crust Selection</h5>
+      <input type="radio" name="crust" id="Plain" value="0"> Plain Crust &emsp;
+      <input type="radio" name="crust" id="Garlic-Butter" value="0"> Garlic Butter Crust &emsp;
+      <input type="radio" name="crust" id="Cheese-Stuffed" value="3">  Cheese Stuffed Crust (KES300) &emsp;
+      <input type="radio" name="crust" id="Spicy" value="0">  Spicy Crust &emsp;
+      <input type="radio" name="crust" id="House-Special" value="0"> House Special Crust<br><br>
+    
+    <h5>Sauce Selection</h5>
+      <input type="radio" name="sauce" id="No" value="0"> No Sauce&emsp;
+      <input type="radio" name="sauce" id="Marinara" value="0"> Marinara Sauce &emsp;
+      <input type="radio" name="sauce" id="White" value="0">  White Sauce &emsp;
+      <input type="radio" name="sauce" id="Barbeque" value="0">  Barbeque Sauce<br><br>
+        
+    <h5>Meat Toppings:</h5>   
+    <p>The first meat topping is free and each additional meat topping is KES100</p>
+    <input type="checkbox" name="meat" id=" Pepperoni" value="1"> Pepperoni &emsp;
+      <input type="checkbox" name="meat" id=" Sausage" value="1"> Sausage &emsp;
+      <input type="checkbox" name="meat" id=" Canadian-Bacon" value="1">  Canadian Bacon &emsp;
+      <input type="checkbox" name="meat" id=" Ground-Beef" value="1">  Ground Beef &emsp;
+      <input type="checkbox" name="meat" id=" Anchovy" value="1"> Anchovy &emsp;
+      <input type="checkbox" name="meat" id=" Chicken" value="1"> Chicken <br><br>
+     
+    <h5>Veggie Toppings:</h5>  
+    <p>The first veggie topping is free and each additional veggies topping is KES100. </p>
+    <input type="checkbox" name="veggies" id=" Tomatoes" value="1"> Tomatoes &emsp;
+      <input type="checkbox" name="veggies" id=" Onions" value="1"> Onions &emsp;
+      <input type="checkbox" name="veggies" id=" Olives" value="1">  Olives &emsp;
+      <input type="checkbox" name="veggies" id=" Green-Peppers" value="1">  Green Peppers &emsp;
+      <input type="checkbox" name="veggies" id=" Mushrooms" value="1"> Mushrooms &emsp;
+      <input type="checkbox" name="veggies" id=" Pineapple" value="1"> Pineapple &emsp;
+      <input type="checkbox" name="veggies" id=" Spinach" value="1">  Spinach &emsp;
+      <input type="checkbox" name="veggies" id=" Jalapeno" value="1">  Jalapeno  <br><br>  
+
+        
+    <input type="submit" value="Submit">
+        
+    </form> 
+    </div>
+      
+    </div>  
+</div>
+<!-- contact section -->
+<footer class="page-footer">
+  <div class="container-fluid" id="contact">
+    <h2 class="headings text-center">Contact us</h2>
+    <div class="col-md-3 text-justify">
+      <h4>Location</h4>
+      <p>Fedha plaza</p>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="col-md-3">
+      <h4>Customer Care</h4>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="col-md-4" id="map">
+      <div class="mapouter">       
+        <style>.mapouter{position:relative;text-align:right;height:180px;width:350px;}.gmap_canvas {overflow:hidden;background:none!important;height:180px;width:350px;}</style>
+      </div>
+  </div>
+
+  </div>
+
+</footer>
 <script src="/js/jquery-3.5.1.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+<script src="/js/scripts.js"></script>
 </body>
 </html>
