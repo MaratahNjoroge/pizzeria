@@ -55,7 +55,7 @@ $(document).ready(function(){
       alert('Please complete your order');
     }else{   
       $("#pizza-form").hide();
-      result.innerHTML= form.fullName.value + "<br>" + form.phoneNumber.value + "<br>" + form.address.value + "<br><br>" +  size + " Pizza &emsp; KES" + sizePrice + "00 <br>" + cheese + " Cheese &emsp; KES" + cheesePrice + "00 <br>" + crust + " Crust &emsp; KES" + crustPrice  + "00 <br>" + sauce + " Sauce &emsp; KES0 <br> Meat Toppings &emsp; KES" + meatPrice + "00 <br> (" + allMeat + ") <br> Veggie Toppings &emsp; KES" + veggiePrice + "00 <br> (" + allVeggies + ") <br> Total &emsp; KES" + total + "00";
+      result.innerHTML= form.fullName.value + "<br>" + form.phoneNumber.value + "<br>" + form.address.value + "<br><br>" +  size + " Pizza &emsp; Ksh" + sizePrice + "00 <br>" + cheese + " Cheese &emsp; Ksh" + cheesePrice + "00 <br>" + crust + " Crust &emsp; Ksh" + crustPrice  + "00 <br>" + sauce + " Sauce &emsp; Ksh0 <br> Meat Toppings &emsp; Ksh" + meatPrice + "00 <br> (" + allMeat + ") <br> Veggie Toppings &emsp; Ksh" + veggiePrice + "00 <br> (" + allVeggies + ") <br> Total &emsp; Ksh" + total + "00";
       form.reset();//clears answers from input fields when you submit
     }
     };
