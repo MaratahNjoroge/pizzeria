@@ -6,7 +6,7 @@ html,body {
 }
 
 ul,li,a {
-	color: rgb(255, 255, 255);
+	color: white;
 }
 
 nav .navbar {
@@ -99,7 +99,7 @@ span.emoji {
   }
 
   .page-footer {
-	background-color: #222;
+	background-color: crimson;
 	color: #ccc;
 	padding:60px 0 30px;
 }
