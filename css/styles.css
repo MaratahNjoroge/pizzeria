@@ -12,6 +12,9 @@ nav .navbar {
 	margin: 0;
 	width: 95%;
 }
+p {
+  font-size: 20px;
+  }
 .landing {
     background: url(../images/pizzeria4.jpg);
     background-repeat: no-repeat;
@@ -58,25 +61,61 @@ span.emoji {
 	line-height: 2;
   }
 
-  .carousel-item {
-	height: 100vh;
-	min-height: 50vh;
-	background: no-repeat center center scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-   	background-position: center center;
-}
- img {
-  opacity: 89%;
+ .carousel-item.active, .carousel-item .view {
+      height: 70vh!important;
+    }
+
+    .carousel-item img {
+      object-fit: cover;
+      width:100%!important;
+      height: 100% !important;
+    }
+
+    .content h3 {
+	  font-size: 55px;
+    }
+
+    @media screen and (max-width: 320px) {
+      .content h3 {
+        font-size: 30px;
+      }
+    }
+
+    @media screen and (min-width: 321px) and (max-width: 768px) {
+      .content h3 {
+        font-size: 30px;
+      }
+
+      
+    }
+
+    .content h5 {
+      font-size: 23px;
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+
+    @media screen and (max-width: 320px) {
+      .content h5 {
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 20px
+      }
+
+    }
+
+    @media screen and (min-width: 321px) and (max-width: 768px) {
+      .content h5 {
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    }
+
+ h3  {
+	 color: black;
+	 font-size: 70px;
  }
- h3 {
-	font-size: 50%;
-	color: white;
-	text-align: center;
-	
-}
 
 #order{
 	background-attachment: fixed;
@@ -100,7 +139,7 @@ span.emoji {
   .page-footer {
 	background-color: crimson;
 	color: #ccc;
-	padding:60px 0 30px;
+	padding:40px 0 20px;
 }
 
 .footer-copyright {
