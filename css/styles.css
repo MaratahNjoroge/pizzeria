@@ -21,8 +21,8 @@ p {
     background-size: cover;
     background-position: center;
     height: 100vh;
-	color: white;
-	background-attachment: fixed;
+	  color: white;
+	  background-attachment: fixed;
 }
 
 .overlay {
