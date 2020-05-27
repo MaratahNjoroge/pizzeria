@@ -1,3 +1,9 @@
+
+html,body {
+  scroll-behavior: smooth;
+
+}
+
 /* nav-bar */
 ul,li,a {
 	color: white;
@@ -26,7 +32,14 @@ left: 0;
 top: 0;
 background: rgba(0, 0, 0, 0.3);
 }
+.first {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
 
+}
 .first h1 {
 	color: crimson;
 	font-size: 4.5em;
