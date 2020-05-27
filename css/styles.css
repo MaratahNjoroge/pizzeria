@@ -43,7 +43,7 @@ background: rgba(0, 0, 0, 0.3);
 .first h1 {
 	color: crimson;
   font-size: 4.5em;
-  font-family: ' Astigmatic', serif;
+  font-family: 'Astigmatic', serif;
 }
 
 .first p {
@@ -51,4 +51,21 @@ background: rgba(0, 0, 0, 0.3);
 	font-size: 1.3rem;
 	line-height: 1.5;
 	font-size: 2em;
+}
+
+/* about section */
+
+span.emoji {
+	font-size: 30px;
+	vertical-align: middle;
+	line-height: 2;
+  }
+
+#about h2 {
+  font-size: 2rem !important;
+  color: crimson;
+}
+#about p {
+  font-size: 1.2rem !important;
+  font-family: 'Pompiere', serif;
 }
