@@ -69,3 +69,55 @@ span.emoji {
   font-size: 1.2rem !important;
   font-family: 'Pompiere', serif;
 }
+/* cuisine-section */
+.carousel-item.active, .carousel-item .view {
+  height: 70vh!important;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width:100%!important;
+  height: 100% !important;
+}
+
+.content h3 {
+font-size: 55px;
+}
+
+@media screen and (max-width: 320px) {
+  .content h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .content h3 {
+    font-size: 30px;
+  }
+
+  
+}
+
+.content h5 {
+  font-size: 23px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+@media screen and (max-width: 320px) {
+  .content h5 {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px
+  }
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .content h5 {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
