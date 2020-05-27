@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Astigmatic|Unkempt&display=swap');
 html,body {
   scroll-behavior: smooth;
 
@@ -42,7 +42,8 @@ background: rgba(0, 0, 0, 0.3);
 }
 .first h1 {
 	color: crimson;
-	font-size: 4.5em;
+  font-size: 4.5em;
+  font-family: ' Astigmatic', serif;
 }
 
 .first p {
