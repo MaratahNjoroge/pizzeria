@@ -1,4 +1,4 @@
-
+/* nav-bar */
 ul,li,a {
 	color: white;
 }
@@ -6,4 +6,35 @@ ul,li,a {
 nav .navbar {
 	margin: 0;
 	width: 95%;
+}
+/* landing */
+.landing {
+  background: url(../images/pizzeria4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  background-attachment: fixed;
+}
+
+.overlay {
+position: absolute;
+min-height: 100%;
+min-width: 100%;
+left: 0;
+top: 0;
+background: rgba(0, 0, 0, 0.3);
+}
+
+.first h1 {
+	color: crimson;
+	font-size: 4.5em;
+}
+
+.first p {
+	color:yellow;
+	font-size: 1.3rem;
+	line-height: 1.5;
+	font-size: 2em;
 }
