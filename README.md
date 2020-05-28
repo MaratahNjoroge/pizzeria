@@ -5,9 +5,11 @@
 - A website that hoists an ideaised view of how a pizzeria website would look like, including an installed version of Git.
 ## Setup/Installation Requirements
 To run the application in your terminal:
-- Clone Repository on Local Machine  https://maratahnjoroge.github.io/pizzeria/
+- Clone Repository on Local Machine  
 - cd into Directory  cd portfolio
 - Open the index.html on the browser
+## BDD 
+- The user is prompted to order a pizza of their preferrence and check-out with an alert showing their order.
 ## Known Bugs
 Want to contribute? Great!  
 To fix a bug or enhance an existing module, follow these steps:
