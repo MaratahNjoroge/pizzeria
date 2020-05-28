@@ -139,6 +139,9 @@ font-size: 55px;
   padding-bottom: 20px;
   padding-left: 6%;
 }
+.order h2 {
+  text-align: center;
+}
 .choice{
   display: none;
   padding-left: 2%;
@@ -147,7 +150,7 @@ font-size: 55px;
 .deliver{
   display: none;
 }
-.delivery{
+.pick-up{
   display: none;
   padding-left: 10%;
   padding-right: 10%;
@@ -156,13 +159,38 @@ td,th{
   font-size: 20px;
   color: white;
 }
-.choise h2{
+.choice h2{
   color:orange;
   text-align: left;
 }
 #your-orders{
   color: white;
   font-size: 30px;
+}
+#addedprice{
+  display: none;
+}
+#finallmessage{
+  display: none;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 28px;
+}
+#regards{
+  text-align: center;
+  color: aliceblue;
+}
+#info{
+  padding-top: 5%;
+  font-size: 22px;
+  padding-right: 8%;
+  padding-left: 5%;
+  color: #ffa500;
+}
+button {
+  border-radius: 15px;
+  background-color: crimson;
 }
 
 footer {
@@ -171,11 +199,14 @@ footer {
 	padding: 50px 0px;
 }
 
-
+footer #copyright {
+  color: white;
+  font-size: 20px;
+}
 
 footer .location h4 {
 	margin-top: 0px;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 500;
 	color: #fff;
 	text-transform: uppercase;
@@ -184,9 +215,9 @@ footer .location h4 {
 }
 
 footer .location ul li {
-	font-size: 13px;
+	font-size: 15px;
 	color: #fff;
-	display: inline-block;
+	display: inline;
 	line-height: 24px;
 	letter-spacing: 0.5px;
 	padding-top: 5px;
@@ -201,7 +232,7 @@ footer .location ul li:first-child {
 
 footer .contact-info h4 {
 	margin-top: 0px;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 500;
 	color: #fff;
 	text-transform: uppercase;
@@ -228,7 +259,7 @@ footer .contact-info ul li em {
 
 footer .connect-us h4 {
 	margin-top: 0px;
-	font-size: 13px;
+	font-size: 17px;
 	font-weight: 500;
 	color: #fff;
 	text-transform: uppercase;
